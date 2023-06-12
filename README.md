@@ -1,2 +1,2 @@
-# chonkify
-What does the chonk say?
+# Chonky Text Filter
+Channel ...*urrrp*... your inner ...*ouurRRPp*... fatashsh ...*puff*... and shee ...*whimper*... wha'tsh you'd ...*puff*... shound ...*urrrp*... like ...*gasp*... i-if you ...*bworrRPPpp*... s-shtruggled t-to t-talk, belching ...*puff*... a-and g-groaning ...*urrrp*... and gurgling ...*hahhh*... ash ...*groan*... you ...*huff*... tried t-to ...*hrrngh*... ge'tsh wordsh ou'tsh ...*ouurRRPp*... i-in ...*urrrp*... between ...*gasp*... b-bitesh ...*wheeze*... o-of ...*nggnhh*... food and ...*gasp*... g-guzzling from a h-hoshe pumping you f-full of lard.

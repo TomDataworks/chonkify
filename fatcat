@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+import argparse
+import chonkify
+import sys
+
+parser = argparse.ArgumentParser(
+  description=chonkify.Chonkify(slur=1,vowels=0.5,eating=0.33).chonkify("Say it like a fatass. Just give me tons of belching and groaning and grunting and slurring and barely making coherent speech because I can hardly breathe and I'm always eating.")
+)
+
+parser.add_argument("-s", "--struggle", help="*hrrngg* *huff* *puff* *whimper*", default=0.5)
+parser.add_argument("-l", "--lisp", help="da just'sh glorph", default=1)
+parser.add_argument("-t", "--stutter", help="j-just s-stutter", default=0.33)
+parser.add_argument("-r", "--slur", help="tooh druhnk", default=0)
+parser.add_argument("-v", "--vowels", help="extraa vooweels", default=0)
+parser.add_argument("-e", "--eating", help="*munch* *munch* *snarf*", default=0)
+parser.add_argument("-n", "--no-gas", help="out of gas", dest="gas", action="store_false")
+parser.add_argument("-x", "--extra-gas", help="bel*urrRRP* yo*urrPPP*r wo*urrrPP*rds", dest="extragas", default=0)
+args = vars(parser.parse_args())
+
+chonk = chonkify.Chonkify(
+  float(args["struggle"]), float(args["lisp"]), float(args["stutter"]),
+  float(args["slur"]), float(args["vowels"]), float(args["eating"]),
+  args["gas"], float(args["extragas"]))
+
+for line in sys.stdin:
+  print(chonk.chonkify(line))
